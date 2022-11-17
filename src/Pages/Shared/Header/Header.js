@@ -17,6 +17,14 @@ const Header = () => {
         <li><Link to='/hot'>Hot Deals</Link></li>
         <li><Link to='/guides'>Guides</Link></li>
         <li><Link to='/about'>About</Link></li>
+        <li>
+            {
+                user && <>
+                    <Link to="/addplace">Add</Link>
+                    <Link to="/manage">Manage</Link>
+                </>
+            }
+        </li>
         <li>{user ?
             <button onClick={logOut} className="btn btn-link">Sign Out</button>
             :

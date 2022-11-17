@@ -1,6 +1,7 @@
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import About from './Pages/About/About';
+import AddPlace from './Pages/AddPlace/AddPlace';
 import HotDeals from './Pages/Deals/HotDeals/HotDeals';
 import TourGuides from './Pages/Home/Guides/TourGuides';
 import Home from './Pages/Home/Home/Home';
@@ -8,6 +9,7 @@ import Places from './Pages/Home/Places/Places';
 import Login from './Pages/Login/Login/Login';
 import Register from './Pages/Login/Register/Register';
 import RequireAuth from './Pages/Login/RequireAuth/RequireAuth';
+import ManagePlace from './Pages/ManagePlace/ManagePlace';
 import PlaceDetail from './Pages/PlaceDetail/PlaceDetail';
 import Header from './Pages/Shared/Header/Header';
 import NotFound from './Pages/Shared/NotFound/NotFound';
@@ -20,8 +22,18 @@ function App() {
         <Route path='/' element={<Home></Home>}></Route>
         <Route path='/home' element={<Home></Home>}></Route>
         <Route path='/places' element={<Places></Places>}></Route>
-        <Route path='/place/:placeId' element={<RequireAuth>
-          <PlaceDetail></PlaceDetail>
+        <Route path='/place/:placeId' element={
+          <RequireAuth>
+            <PlaceDetail></PlaceDetail>
+          </RequireAuth>}>
+        </Route>
+        <Route path='/addplace' element={
+          <RequireAuth>
+            <AddPlace />
+          </RequireAuth>}>
+        </Route>
+        <Route path='/manage' element={<RequireAuth>
+          <ManagePlace></ManagePlace>
         </RequireAuth>}></Route>
         <Route path='/hot' element={<HotDeals></HotDeals>}></Route>
         <Route path='guides' element={<TourGuides></TourGuides>}></Route>
