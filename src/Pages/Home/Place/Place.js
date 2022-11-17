@@ -1,4 +1,5 @@
 import React from 'react';
+import './Place.css';
 
 const Place = ({ place }) => {
     const { name, img, description, price } = place;
