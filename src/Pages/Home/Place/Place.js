@@ -1,8 +1,13 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import './Place.css';
 
 const Place = ({ place }) => {
-    const { name, img, description, price } = place;
+    const { id, name, img, description, price } = place;
+    const navigate = useNavigate();
+    const navigateToPlaceDetail = id => {
+        navigate(`/place/${id}`);
+    }
     return (
         <div class="card w-80 bg-base-100 shadow-xl">
             <figure><img className='image' src={img} alt="Shoes" /></figure>
@@ -11,7 +16,7 @@ const Place = ({ place }) => {
                 <p>{description}</p>
                 <p className='text-accent'>Price: ${price}</p>
                 <div class="card-actions justify-end">
-                    <button class="btn btn-primary">Review</button>
+                    <button onClick={() => navigateToPlaceDetail(id)} class="btn btn-primary">Review</button>
                 </div>
             </div>
         </div>
