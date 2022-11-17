@@ -1,0 +1,65 @@
+[
+    {
+        "id": 1,
+        "name": "Balearic Island, Majorca",
+        "price": "299",
+        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+        "img": "https://i.ibb.co/RSfC53w/place1.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Tulum Mexico",
+        "price": "299",
+        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+        "img": "https://i.ibb.co/SBYC42p/place2.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Dubrovnik Croatia",
+        "price": "299",
+        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+        "img": "https://i.ibb.co/YRw8wYM/place3.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Cairo Egypt",
+        "price": "299",
+        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+        "img": "https://i.ibb.co/5FhpKXX/place4.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Rhodes, Dodecanese",
+        "price": "100",
+        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+        "img": "https://i.ibb.co/NZ0QJC9/place5.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Ibiza, Balearic Island",
+        "price": "299",
+        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa",
+        "img": "https://i.ibb.co/mHq3kbf/place6.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Natal, Brazil",
+        "price": "299",
+        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa",
+        "img": "https://i.ibb.co/DDtSn8L/place7.jpg"
+    },
+    {
+        "id": 8,
+        "name": "North Male, Atoll",
+        "price": "299",
+        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa",
+        "img": "https://i.ibb.co/Ny2r5B9/place8.jpg"
+    },
+    {
+        "id": 9,
+        "name": "St Martin",
+        "price": "299",
+        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa",
+        "img": "https://i.ibb.co/48DbPF2/place9.jpg"
+    }
+]
